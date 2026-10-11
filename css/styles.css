@@ -61,8 +61,8 @@ body {
     min-width: 250px;
     padding: 25px;
     background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-top: 5px solid #3d1f5c;
 }
 
