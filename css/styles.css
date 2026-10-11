@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #2b2b2b;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1f4d3a;
+    color: white;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.nav-enlaces {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-enlaces a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Pseudoclase hover */
+.nav-enlaces a:hover {
+    background-color: #3d1f5c;
+    color: white;
+}
+
+/* Presentación */
+.presentacion {
+    padding: 30px;
+    text-align: center;
+    background-color: #e5ece8;
+}
+
+/* Contenedor Flexbox */
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.tarjeta-modulo {
+    flex: 1;
+    min-width: 250px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    border-top: 5px solid #3d1f5c;
+}
+
+.tarjeta-modulo:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-modulo h2 {
+    color: #1f4d3a;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3d1f5c;
+    color: white;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .contenedor-tarjetas {
+        flex-direction: column;
+    }
+}
