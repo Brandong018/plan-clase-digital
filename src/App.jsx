@@ -2,6 +2,7 @@
 import HeaderClase from './components/HeaderClase';
 import ObjetivosCard from './components/ObjetivosCard';
 import ActividadItem from './components/ActividadItem';
+import ListaActividades from './components/ListaActividades';
 import './App.css';
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
           descripcion="Redactar un párrafo sobre el mensaje principal de la lectura."
         />
       </section>
+
+      <ListaActividades />
 
       <footer className="pie-pagina">
         <p>Plan de Clase Digital Interactivo | 2026</p>
